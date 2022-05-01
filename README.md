@@ -41,8 +41,8 @@ $message->setTemplate( ['success',
                         'secondary',
                         'default'], '<div class="alert alert-{$key}">{$message}</div>' ); //default
 
-
-$message->setTemplate( 'errorInfo', '<div class="alert alert-danger {$key}">{$message}</div>' );//custom template
+//custom template
+$message->setTemplate( 'errorInfo', '<div class="alert alert-danger {$key}">{$message}</div>' );
 ```
 You can override default/existing template too with this.
 
