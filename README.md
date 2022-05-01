@@ -23,11 +23,11 @@ $message->{$key} = {$yourmessage};
 $message->success = 'Message'; //Property
 $message['success'] = 'Message'; //Array key
 $message->success( 'Message' ); //Method call or
-$message( 'success', 'Message' ); //Object call
+$message( 'success', 'Message' ); //Function call
 ```
 4. Then, that flash message can be displayed using echo:
 ```php
-echo $message(); //Method call with no parameter
+echo $message(); //Function call with no parameter
 ```
 Or you can treat this object like a string:
 ```php
