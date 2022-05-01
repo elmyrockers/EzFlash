@@ -6,7 +6,7 @@ namespace elmyrockers;
 /**
  * 
  */
-class EzFlash implements ArrayAccess
+class EzFlash implements \ArrayAccess
 {
 	private $_templates = [];
 	public function __construct()
