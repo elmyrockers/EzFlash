@@ -17,6 +17,7 @@ use elmyrockers\EzFlash;
 $message = new EzFlash;
 ```
 3. After that, you can set flash message in 4 different ways:
+$message->{$key} = {$message};
 ```php
 $message->success = 'Message'; //Property
 $message['success'] = 'Message'; //Array key
