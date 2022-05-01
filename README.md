@@ -18,7 +18,7 @@ $message = new EzFlash;
 ```
 3. After that, you can set flash message in 4 different ways:
 
-$message->{$key} = {$message};
+$message->{$key} = {$yourmessage};
 ```php
 $message->success = 'Message'; //Property
 $message['success'] = 'Message'; //Array key
