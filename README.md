@@ -34,12 +34,12 @@ echo $message;
 5. You can set different template for each $key:
 ```php
 $message->setTemplate( ['success',
- 						'danger',
- 						'warning',
- 						'info',
- 						'primary',
- 						'secondary',
- 						'default'], '<div class="alert alert-{$key}">{$message}</div>' ); //default
+                        'danger',
+                        'warning',
+                        'info',
+                        'primary',
+                        'secondary',
+                        'default'], '<div class="alert alert-{$key}">{$message}</div>' ); //default
 
 
 $message->setTemplate( 'errorInfo', '<div class="alert alert-danger {$key}">{$message}</div>' );//custom template
