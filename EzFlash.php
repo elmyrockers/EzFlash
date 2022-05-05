@@ -57,20 +57,11 @@ class EzFlash implements \ArrayAccess
 		$this->$key = $message;
 	}
 
-	public function offsetGet( $key )
-	{
-		
-	}
+	public function offsetGet( $key ){}
 
-	public function offsetExists( $key )
-	{
-		
-	}
+	public function offsetExists( $key ){}
 
-	public function offsetUnset($key )
-	{
-		
-	}
+	public function offsetUnset($key ){}
 
 	public function setTemplate( string|array $key, string $template )
 	{
