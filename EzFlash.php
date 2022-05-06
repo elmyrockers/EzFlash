@@ -45,9 +45,13 @@ class EzFlash implements \ArrayAccess
 
 	public function __toString()
 	{
-		$key = key( $_SESSION['EzFlash'] );
-		$message = current( $_SESSION['EzFlash'] );
-		unset( $_SESSION[ 'EzFlash' ][ $key ] );
+		# Make sure flash message has been set first
+			if ( empty($_SESSION['EzFlash']) ) return '';
+
+		# Then, display it and delete it at the same time (show one-time only)
+			$key = key( $_SESSION['EzFlash'] );
+			$message = current( $_SESSION['EzFlash'] );
+			unset( $_SESSION[ 'EzFlash' ][ $key ] );
 
 		return $message;
 	}
