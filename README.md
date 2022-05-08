@@ -1,7 +1,7 @@
 
 # EzFlash PHP Library
 
-Lightweight, simple and easy way to display flash message.
+Lightweight, simple and easy way to display flash message with Bootstrap 5 (Alert) template
 
 
 
