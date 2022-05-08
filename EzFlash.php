@@ -16,11 +16,13 @@ class EzFlash implements \ArrayAccess
 
 		# Set default template
 			$this->setTemplate( ['success',
-								'danger',
-								'warning',
 								'info',
+								'warning',
+								'danger',
 								'primary',
 								'secondary',
+								'light',
+								'dark',
 								'default'], '<div class="alert alert-{$key}">{$message}</div>' ); //default
 	}
 
