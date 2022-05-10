@@ -10,6 +10,7 @@ Lightweight, simple and easy way to display flash message with Bootstrap 5 (Aler
 1. First, add the following line into your PHP code:
 ```php
 <?php
+require_once 'path/to/src/EzFlash.php';
 use elmyrockers\EzFlash;
 ```
 2. Create new instance of EzFlash class:
