@@ -41,6 +41,8 @@ $message->setTemplate( ['success',
                         'info',
                         'primary',
                         'secondary',
+                        'light',
+                        'dark',
                         'default'], '<div class="alert alert-{$key}">{$message}</div>' ); //default
 
 //custom template
