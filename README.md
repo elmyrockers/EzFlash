@@ -34,6 +34,17 @@ Or you can treat this object like a string:
 ```php
 echo $message;
 ```
+For instance, if you write code like the following statement:
+```php
+$message( 'success', 'My message' ); //Set flash message through function call
+echo $message; // Echo flash message (one-time display)
+```
+Then, its output will look like this one:
+```html
+<div class="alert alert-success">My message</div>
+```
+
+
 5. You can set different template for each $key:
 ```php
 $message->setTemplate( ['success',
