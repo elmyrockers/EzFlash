@@ -69,7 +69,8 @@ class EzFlash implements \ArrayAccess
 
 	public function offsetUnset($key ){}
 
-	public function setTemplate( string|array $key, string $template )
+	public function setTemplate( $key, $template ) //php 7
+	// public function setTemplate( string|array $key, string $template ) //php 8
 	{
 		if ( is_array($key) ) {
 			foreach ( $key as $k ) {
