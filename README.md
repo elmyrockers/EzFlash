@@ -67,9 +67,9 @@ Lightweight, simple and easy way to display flash message with Bootstrap 5 (Aler
 
 ## Authors
 
-	[@elmyrockers](https://www.github.com/elmyrockers)
+[@elmyrockers](https://www.github.com/elmyrockers)
 
 
 ## License
 
-	[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/)
