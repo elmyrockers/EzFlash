@@ -9,7 +9,7 @@ Lightweight, simple and easy way to display flash message with Bootstrap 5 (Aler
 ## Usage/Examples
 1. First of all, you can install via composer:
 ```sh
-composer require phpmailer/phpmailer
+composer require elmyrockers/ezflash
 ```
 2. Add the following line into your PHP code:
 ```php
