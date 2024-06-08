@@ -1,11 +1,16 @@
 {
-    "name": "elmyrockers/ezflash",
-    "description": "EzFlash PHP library - Lightweight, simple and easy way to display flash message with Bootstrap 5 (Alert) template",
-    "type": "library",
-    "version": "1.0.0",
-    "require": {
-        "php": ">=7.4"
-    },
-    "minimum-stability": "stable",
-    "license": "MIT"
+	"name": "elmyrockers/ezflash",
+	"description": "EzFlash PHP library - Lightweight, simple and easy way to display flash message with Bootstrap 5 (Alert) template",
+	"type": "library",
+	"version": "1.0.0",
+	"require": {
+		"php": ">=7.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Elmyrockers\\Ezflash\\": ""
+		}
+	},
+	"minimum-stability": "stable",
+	"license": "MIT"
 }
