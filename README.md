@@ -7,17 +7,20 @@ Lightweight, simple and easy way to display flash message with Bootstrap 5 (Aler
 
 
 ## Usage/Examples
-1. First, add the following line into your PHP code:
+1. First of all, you can install via composer:
+```sh
+composer require phpmailer/phpmailer
+```
+2. Add the following line into your PHP code:
 ```php
-<?php
-require_once 'path/to/src/EzFlash.php';
+require_once 'vendor/autoload.php'; //Load Composer's autoloader
 use elmyrockers\EzFlash;
 ```
-2. Create new instance of EzFlash class:
+3. Create new instance of EzFlash class:
 ```php
 $message = new EzFlash;
 ```
-3. After that, you can set flash message in 4 different ways:
+4. After that, you can set flash message in 4 different ways:
 
 $message->{$key} = {$yourmessage};
 ```php
@@ -26,7 +29,7 @@ $message['success'] = 'Message'; //Array key
 $message->success( 'Message' ); //Method call or
 $message( 'success', 'Message' ); //Function call
 ```
-4. Then, that flash message can be displayed using echo:
+5. Then, that flash message can be displayed using echo:
 ```php
 echo $message(); //Function call with no parameter
 ```
@@ -45,7 +48,7 @@ Then, its output will look like this one:
 ```
 
 
-5. You can set different template for each $key:
+6. You can set different template for each $key:
 ```php
 $message->setTemplate( ['success',
                         'danger',
