@@ -65,6 +65,10 @@ Lightweight, simple and easy way to display flash message with Bootstrap 5 (Aler
 	```
 	You can override default/existing template too with this.
 
+## Reference
+
+[Simple Tutorial](https://elmyrockers.github.io/EzFlash)
+
 ## Authors
 
 [@elmyrockers](https://www.github.com/elmyrockers)
