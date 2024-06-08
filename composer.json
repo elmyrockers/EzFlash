@@ -1,5 +1,5 @@
 {
-    "name": "elmyrockers/EzFlash",
+    "name": "elmyrockers/ezflash",
     "description": "EzFlash PHP library - Lightweight, simple and easy way to display flash message with Bootstrap 5 (Alert) template",
     "require": {
         "php": ">=7.0"
