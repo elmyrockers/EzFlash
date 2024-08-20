@@ -58,15 +58,28 @@ class EzFlash implements \ArrayAccess
 		return $message;
 	}
 
+
+	/**
+	 * @return void
+	 */
 	public function offsetSet( $key, $message )
 	{
 		$this->$key = $message;
 	}
 
+	/**
+	 * @return mixed
+	 */
 	public function offsetGet( $key ){}
 
+	/**
+	 * @return bool
+	 */
 	public function offsetExists( $key ){}
 
+	/**
+	 * @return void
+	 */
 	public function offsetUnset($key ){}
 
 	public function setTemplate( $key, $template ) //php 7
