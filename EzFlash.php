@@ -62,6 +62,7 @@ class EzFlash implements \ArrayAccess
 	/**
 	 * @return void
 	 */
+	#[\ReturnTypeWillChange]
 	public function offsetSet( $key, $message )
 	{
 		$this->$key = $message;
@@ -70,16 +71,19 @@ class EzFlash implements \ArrayAccess
 	/**
 	 * @return mixed
 	 */
+	#[\ReturnTypeWillChange]
 	public function offsetGet( $key ){}
 
 	/**
 	 * @return bool
 	 */
+	#[\ReturnTypeWillChange]
 	public function offsetExists( $key ){}
 
 	/**
 	 * @return void
 	 */
+	#[\ReturnTypeWillChange]
 	public function offsetUnset($key ){}
 
 	public function setTemplate( $key, $template ) //php 7
